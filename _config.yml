@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: ShenJinRan's Blog
 subtitle: ''
-description: ''
+description: '是ShenJinRan和ZhouLiRui一起搭建的小站哦'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: ShenJinRan
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://blog.zhoulirui.ggff.net
 permalink: :title/
 permalink_defaults:
 pretty_urls:
