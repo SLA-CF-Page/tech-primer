@@ -625,24 +625,19 @@ player:
   position: before_sidebar # before_sidebar / after_sidebar / after_widget
   # if you enable meting, you must enable aplayer first
   aplayer:
-  # https://github.com/DIYgod/APlayer
-  enable: true
-  options:
-    audio:
-      - name: "大喜"
-        artist: "泠鸢yousa"
-        url: "https://pan.srczlrzh.xyz/f/09i2/%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC%E3%80%81%E6%B3%A0%E9%B8%A2yousa%20-%20%E5%A4%A7%E5%96%9C_SQ.mp3"
-        cover: "http://p1.music.126.net/4FiWdxnfnGfq0RsXpJGTXw==/109951165772596480.jpg?param=130y130"
-    fixed: true           # 播放器固定在页面底部
-    autoplay: false       # 是否自动播放，false 为不自动播放
-    loop: "all"           # 循环模式，all 为全部循环
-    order: "list"         # 播放顺序，顺序播放
-    preload: "auto"       # 预加载模式
-    volume: 0.5           # 默认音量，取值范围 0-1
-    mutex: true           # 是否互斥，多个播放器同时只能播放一个
-    listFolded: false     # 播放列表默认展开
-    lrcType: 0            # 歌词显示模式，0 表示关闭
-
+    # https://github.com/DIYgod/APlayer
+    enable: false
+    options:
+      audio: []
+      fixed:
+      autoplay:
+      loop:
+      order:
+      preload:
+      volume:
+      mutex:
+      listFolded:
+      lrcType:
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
