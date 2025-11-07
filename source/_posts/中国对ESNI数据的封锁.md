@@ -6,6 +6,7 @@ tags:
   - GFW
   - 审查
   - TLS
+cover: /images/GFW-1封面.webp
 ---
 
 ## 引言
