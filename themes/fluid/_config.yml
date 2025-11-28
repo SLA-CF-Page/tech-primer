@@ -398,7 +398,7 @@ search:
 
 # 首屏图片的相关配置
 # Config of the big image on the first screen
-banner:https://blog.zhoulirui.ggff.net/images/%E5%AF%BC%E8%88%AA%E7%AB%99%E5%B0%81%E9%9D%A2.webp
+banner: https://blog.zhoulirui.ggff.net/images/%E5%AF%BC%E8%88%AA%E7%AB%99%E5%B0%81%E9%9D%A2.webp
   # 视差滚动，图片与板块会随着屏幕滚动产生视差效果
   # Scrolling parallax
   parallax: true
@@ -482,7 +482,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -554,7 +554,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -918,7 +918,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -929,7 +929,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -958,7 +958,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -975,7 +975,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/avatar.png
@@ -997,7 +997,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -1008,7 +1008,7 @@ page:
 #---------------------------
 page404:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 85
   banner_mask_alpha: 0.3
   # 重定向到首页的延迟(毫秒)
@@ -1022,7 +1022,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/beijin.jfif
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
