@@ -398,7 +398,7 @@ search:
 
 # 首屏图片的相关配置
 # Config of the big image on the first screen
-banner: /img/beijin.jfif
+banner:
   # 视差滚动，图片与板块会随着屏幕滚动产生视差效果
   # Scrolling parallax
   parallax: true
