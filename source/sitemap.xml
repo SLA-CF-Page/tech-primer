@@ -6,11 +6,7 @@ layout: false
   {% for post in site.posts.toArray() %}
   <url>
     <loc>{{ config.url }}/{{ post.path }}</loc>
-    {% if post.updated %}
     <lastmod>{{ post.updated.toISOString() }}</lastmod>
-    {% elif post.date %}
-    <lastmod>{{ post.date.toISOString() }}</lastmod>
-    {% endif %}
   </url>
   {% endfor %}
 </urlset>
