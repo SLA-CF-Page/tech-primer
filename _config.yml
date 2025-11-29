@@ -5,15 +5,15 @@
 # Site
 title: ShenJinran's Blog
 subtitle: ''
-description: '是ShenJinRan和ZhouLiRui一起搭建的小站哦'
+description: '为各位来访朋友提供简单的技术扫盲小站'
 keywords:
-author: 世界儿童协会会长
+author: 小瑞子吖
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.zhoulirui.ggff.net
+url: https://blog.zlirui.netlib.re
 permalink: :title/
 permalink_defaults:
 pretty_urls:
