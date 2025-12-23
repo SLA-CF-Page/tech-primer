@@ -8,7 +8,7 @@ description: 为什么我们在浏览器里输入的是单词而不是一串数�
 
 前几期我们聊了安全（SSL/RSA）、传输（Cloudflare）和开发工具（Git）。今天，我们要回到互联网最显眼的地方——**地址栏**。
 
-当你访问我的博客时，你输入的是 `blog.zlirui.netlib.re`，而不是一串像 `104.21.xx.xx` 这样冷冰冰的数字。
+当你访问我的博客时，你输入的是 `teach.zhoulirui.ggff.net`，而不是一串像 `104.21.xx.xx` 这样冷冰冰的数字。
 
 这就好比你给朋友打电话，你在通讯录里搜的是“张三”，而不是去背他的 11 位电话号码。
 
@@ -44,9 +44,9 @@ description: 为什么我们在浏览器里输入的是单词而不是一串数�
 在我的博客域名里，`netlib` 是提供免费域名服务的组织。
 
 ### 第四级：子域名 (Subdomain) -> `zlirui` 和 `blog`
-*   `zlirui.netlib.re` 是我也分配到的个人域名。
+*   `zhoulirui.ggff.net` 是我也分配到的个人域名。
 *   `blog` 是我在这个个人域名下又分出来的一个房间，专门放博客。
-*   你也可以分出 `music.zlirui...` 放音乐，`game.zlirui...` 放游戏。
+*   你也可以分出 `music.zhoulirui...` 放音乐，`game.zhoulirui...` 放游戏。
 
 **www 是什么？**
 `www` 其实也是一个**子域名**！它代表 `World Wide Web`。
@@ -54,7 +54,7 @@ description: 为什么我们在浏览器里输入的是单词而不是一串数�
 
 ## 2. DNS 解析：互联网的接力跑
 
-当你按下回车键的那一瞬间，浏览器并不知道 `blog.zlirui.netlib.re` 在哪里。它需要发起一场**全球接力寻人**（DNS 解析）：
+当你按下回车键的那一瞬间，浏览器并不知道 `teach.zhoulirui.ggff.net` 在哪里。它需要发起一场**全球接力寻人**（DNS 解析）：
 
 1.  **查浏览器缓存**：浏览器问自己：“我刚才是不是访问过？”
 2.  **查系统 Hosts**：电脑问自己：“主人有没有在小本本（hosts文件）上记过这个地址？”
@@ -62,7 +62,7 @@ description: 为什么我们在浏览器里输入的是单词而不是一串数�
     *   *注：这时候 Cloudflare 的 `1.1.1.1` 或 Google 的 `8.8.8.8` 就出场了。*
 4.  **问根服务器 (Root Server)**：如果本地 DNS 也不知道，它就去问全球 13 组根服务器：“老大，你知道 `.re` 归谁管吗？”
 5.  **问顶级域服务器**：根服务器说：“我不知道具体的，但你去找管 `.re` 的服务器问问。”
-6.  **问权威 DNS (Authoritative DNS)**：最后，一路问到管理 `zlirui.netlib.re` 的那台服务器（对于本站来说，就是 Cloudflare 的服务器）。
+6.  **问权威 DNS (Authoritative DNS)**：最后，一路问到管理 `zhoulirui.ggff.net` 的那台服务器（对于本站来说，就是 Cloudflare 的服务器）。
     *   Cloudflare 说：“查到了！它的 IP 是 `172.67.xx.xx`。”
 
 这一整套流程，通常在 **几毫秒到几百毫秒** 内就完成了。
@@ -78,7 +78,7 @@ description: 为什么我们在浏览器里输入的是单词而不是一串数�
 
 *   **CNAME 记录 (Canonical Name)**：
     *   **含义**：域名 -> 另一个域名（别名）。
-    *   **例子**：`blog.zlirui.netlib.re` -> `zlirui-blog.pages.dev`。
+    *   **例子**：`teach.zhoulirui.ggff.net` -> `zlirui-blog.pages.dev`。
     *   **比喻**：通讯录里写着“去找张三的秘书”，你得再去查“张三秘书”的电话。
     *   **作用**：这在 Cloudflare Pages 部署中非常常见，方便 CDN 动态调整 IP。
 
